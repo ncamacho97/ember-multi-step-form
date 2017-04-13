@@ -1,0 +1,45 @@
+form.msform
+  ul.progressbar
+    li.active
+      | Billing Details
+    li
+      | Payment Details
+    li
+      | Check Out
+  fieldset
+    h2.fs-title
+      | Billing Details
+    h3.fs-subtitle
+      |
+    input type="text" name="Full Name" placeholder="Full Name"
+    input type="address" name="address" placeholder="Address 1"
+    input type="address" name="address" placeholder="Address 2"
+    input type="city" name="city" placeholder="City"
+    input type="state/province" name="state/province" placeholder="State/Province"
+    input type="zipcode" name="zipcode" placeholder="Postal Code"
+    input type="phone" name="phone" placeholder="Phone"
+    input type="email" name="email" placeholder="Email"
+    input type="button" name="next" class="next action-button" value="Next"
+  fieldset
+    h2.fs-title
+      | Payment
+    h3.fs-subtitle
+      |
+    input type="text" name="twitter" placeholder="Twitter"
+    input type="text" name="facebook" placeholder="Facebook"
+    input type="text" name="gplus" placeholder="Google Plus"
+    input type="button" name="previous" class="previous action-button" value="Previous"
+    input type="button" name="next" class="next action-button" value="Next"
+  fieldset
+    h2.fs-title
+      | Check Out
+    h3.fs-subtitle
+      |
+    input type="text" name="fname" placeholder="First Name"
+    input type="text" name="lname" placeholder="Last Name"
+    input type="text" name="phone" placeholder="Phone"
+    textarea name="address" placeholder="Address"
+    input type="button" name="previous" class="previous action-button" value="Previous"
+    input type="submit" name="submit" class="submit action-button" value="Submit"
+
+
